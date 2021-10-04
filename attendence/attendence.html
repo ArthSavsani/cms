@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            attendence
+        </title>
+        <style>
+             body {
+        background-image: url("http://localhost/themes1/attendence/attend.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        </style>
+    </head>
+    <body>
+        <form>
+            <table border="5" style="background-color:darkolivegreen; font-family: serif;color: white;">
+                <tr>
+                    <td>Enrollment No.</td>
+                    <td>Name</td>
+                    <td>P/A</td>
+                </tr>   
+                <tr>
+                    <td>180002083</td>
+                    <td>Radia Parth Kantilal</td>
+                    <td><input type="checkbox" name="A" value="P"></td>
+                </tr>
+                <tr>
+                    <td>180002092</td>
+                    <td>Savsani Arth Jayantibhai</td>
+                    <td><input type="checkbox" name="B"></td>
+                </tr>
+                <tr>
+                    <td>180002117</td>
+                    <td>Zatakiya Diksha Natvarlal</td>
+                    <td><input type="checkbox" name="C"></td>
+                </tr>
+                <tr>
+                    <td>180002071</td>
+                    <td>Padhiyar Bhumi</td>
+                    <td><input type="checkbox" name="D"></td>
+                </tr>
+                <tr>
+                    <td>180002018</td>
+                    <td>Dhamecha Nikunj</td>
+                    <td><input type="checkbox" name="E"></td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Save" name="save" style="background-color: darkolivegreen; font-family: serif;color: white;">
+
+            <select required name="lectureno" style="background-color: darkolivegreen; font-family: serif;color: white;">
+                <option>Select lecture</option>
+                <option>Lecture 1</option>
+                <option>Lecture 2</option>
+                <option>Lecture 3</option>
+                <option>Lecture 4</option>
+                <option>Lecture 5</option>
+                <option>Lecture 6</option>
+            </select>
+            <input type="date" name="date" style="background-color: darkolivegreen; font-family: serif;color: white;">
+        </form>
+    </body>
+</html>
